@@ -14,41 +14,43 @@ In the scenario, the purpose for the study is to explore the possibility of star
 
 Tools and Software: Tableau Public 2021.1, Visual Studio Code 1.54.3, Python 3.7.9, Jupyter Notebook 6.1.4, Anaconda 1.10.0
 
-ipynb file used for datetime format conversion: 
+Datetime format conversion code: [NYC_CitiBike_Challenge.ipynb](https://github.com/jkenning/bikesharing/blob/main/NYC_CitiBike_Challenge.ipynb)
 
 Tableau Dashboard for initial analyses: [click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_16182703800160/NYCCitiBike)
 
 Final Tableau Story: [click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_challenge_16182732633520/NYCCitibikeData)
 
+Data source: [citibikenyc](https://www.citibikenyc.com/system-data) (201908-citibike-tripdata), Note: .csv dataset not uploaded due to size
+
 ## Results
 
 The results of the analysis are summarized below:
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/top_starting_locations.png)
 
 Figure 1. Starting locations for each bike trip. Higher numbers of trips start in Manhattan in the city center. This is where some of the main tourist attractions in the city are found and a large number of tourists and visitors in these areas could be a potential cause for the high bike usage. Additionally, it could also be that the population living in this part of the city is higher, or that more people travel to work in this area. Larger numbers of people may also be working in the same high density areas that toursits are likely to frequent due to the abundance of shops, restaurants, etc. It may be that biking is one of the only, or most convenient forms of travel in these parts of the city due to traffic issues or lack of other public transport and people may have arrived to the area by other means before using the bike share. It could be that there are more stations in these areas or that the bike stations have more capacity for bikes.
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/august_peak_hours.png)
 
 Figure 2. Peak hours for riding during August. The most popular times for rides is in the evening between 5.00 and 7.00 PM. There is also a slightly smaller peak in the mornings between 7.00 and 9.00 AM. These are typically hours that people start and finish work, suggesting that significant numbers of people may be using the bikes for commuting.
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/checkout_times_for_users.png)
 
 Figure 3. Amount of time bikes are checked out for rides. The vast majority of riders use the bikes for less than 15 minutes (with a mode of around 6 minutes), suggesting most riders use the bikes for very short journeys at a time. Very few riders use the bikes for more than around 50 minutes, suggesting the bikes are using for quick, convenient, and casual use rather than significant workouts or marathons. It is also possible riders may take more than one trip to a make up a larger overall journey, returning bikes between stops rather than hanging on to the bike for extended periods.
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/checkout_times_by_gender.png)
 
 Figure 4. Bike usage by Gender. Several times more men use the service compared to women, however there are no significant differences in the duration of usage, suggesting men and women exhibit similar riding habits and bike usage. 
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/trips_by_weekday_by_hour.png)
 
 Figure 5. Number of trips by hour of the day and day of the week. It can be observed that the majority of trips occur during the week in the morning and evening hours, as observed in Figure 2. This supports the hypothesis that the majority of the bike usage may be used to commute to and from work betwen Monday and Friday and the bikes see relatively little usage in the middle of the day (but increasing slightly in the afternoons towards the end of the week as more people take off). Usage patterns across the weekend differ, peak usage is lower but consistently higher numbers of rides occur during the middle of the day and far fewer in the early mornings and mid evenings compared to the typical work weekdays of monday to friday. 
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/trips_by_gender.png)
 
 Figure 6. Number of trips by gender. Similar to the results from Figure 4. - more men can be observed to use the service than women, however, there are no significant differences in usage for the time of day and days of the week, again suggesting usage habits are similar between the genders.
 
-![]()
+![](https://github.com/jkenning/bikesharing/blob/main/Images/user_trips_by_gender_by_weekday.png)
 
 Figure 7. Number of trips by gender by weekday, split by customer type. Interestingly, the number of male and female riders who are non-subscribing customers is relatively similar between the sexes and across the length of the week. However it is important to note that similar numbers of riders are unreported so it is possible the data split between the sexes may be less reliable. It is clear that the majority of people using the bike share are subscribers to the service rather than casual customers suggesting this is important to the success of the program. 
 
