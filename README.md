@@ -16,9 +16,9 @@ Tools and Software: Tableau Public 2021.1, Visual Studio Code 1.54.3, Python 3.7
 
 ipynb file used for datetime format conversion: 
 
-Tableau Dashboard for initial analyses: ![click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_16182703800160/NYCCitiBike)
+Tableau Dashboard for initial analyses: [click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_16182703800160/NYCCitiBike)
 
-Final Tableau Story: ![click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_challenge_16182732633520/NYCCitibikeData)
+Final Tableau Story: [click here](https://public.tableau.com/profile/jack.kenning#!/vizhome/NYC_citibike_challenge_16182732633520/NYCCitibikeData)
 
 ## Results
 
